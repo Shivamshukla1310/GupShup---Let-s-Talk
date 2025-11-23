@@ -1,6 +1,6 @@
 import express from "express";
-import cookieParser from "cookie-parser";
-import path from "path";
+import cookieParser from "cookie-parser"; //  When a client sends an HTTP request to an Express server, it might include a Cookie header containing various cookies previously set by the server or other domains. cookie-parser reads this header.
+import path from "path"; // we dont need to install it as it comes with node and express
 import cors from "cors";
 
 import authRoutes from "./routes/auth.route.js";
@@ -17,7 +17,7 @@ app.use(express.json({ limit: "5mb" })); // req.body
 app.use(cors({ origin: ENV.CLIENT_URL, credentials: true }));
 app.use(cookieParser());
 
-app.use("/api/auth", authRoutes);
+app.use("/api/auth", authRoutes); // This are use to create prefix for routees so that it can follow the path correctly
 app.use("/api/messages", messageRoutes);
 
 // make ready for deployment
