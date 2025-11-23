@@ -7,8 +7,7 @@
   },
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend",
-    "_comment": "Here before deployment we need to install node modules in frontend and backend and also build react application then we added start backend because its our entry point and this all is done for sevalla for deployment"
+    "start": "npm run start --prefix backend"
   },
   "keywords": [],
   "author": "",
