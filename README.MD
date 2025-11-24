@@ -1,6 +1,8 @@
 <h1 align="center">✨ Full-Stack Chat Application with Auth, Emails & Real-Time Messaging ✨</h1>
 
-
+<p align="center">
+  <img src="" width="70%" />
+</p>
 
 A modern full-stack chat app featuring secure authentication, real-time messaging, email automation, and a beautiful UI. Built with a production-ready architecture and clean developer workflow.
 
