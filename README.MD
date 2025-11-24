@@ -1,65 +1,103 @@
-<h1 align="center">✨ Full-Stack Chat App with Auth & Emails ✨</h1>
+<h1 align="center">✨ Full-Stack Chat Application with Auth, Emails & Real-Time Messaging ✨</h1>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
 
-Highlights:
 
-- 🔐 Custom JWT Authentication (no 3rd-party auth)
-- ⚡ Real-time Messaging via Socket.io
-- 🟢 Online/Offline Presence Indicators
-- 🔔 Notification & Typing Sounds (with toggle)
-- 📨 Welcome Emails on Signup (Resend)
-- 🗂️ Image Uploads (Cloudinary)
-- 🧰 REST API with Node.js & Express
-- 🧱 MongoDB for Data Persistence
-- 🚦 API Rate-Limiting powered by Arcjet
-- 🎨 Beautiful UI with React, Tailwind CSS & DaisyUI
-- 🧠 Zustand for State Management
-- 🧑‍💻 Git & GitHub Workflow (branches, PRs, merges)
-- 🚀 Easy Deployment (free-tier friendly with Sevalla)
+A modern full-stack chat app featuring secure authentication, real-time messaging, email automation, and a beautiful UI. Built with a production-ready architecture and clean developer workflow.
 
----
+🚀 Highlights
 
-## 🧪 .env Setup
+🔐 Custom JWT Authentication (no third-party auth)
 
-### Backend (`/backend`)
+⚡ Real-time Messaging via Socket.io
 
-```bash
-PORT=3000
-MONGO_URI=your_mongo_uri_here
+🟢 Online/Offline Presence Indicators
 
-NODE_ENV=development
+🔔 Typing & Notification Sounds (with toggle)
 
-JWT_SECRET=your_jwt_secret
+📨 Welcome Emails on signup (Resend)
 
-RESEND_API_KEY=your_resend_api_key
-EMAIL_FROM=your_email_from_address
-EMAIL_FROM_NAME=your_email_from_name
+🗂️ Image Uploads using Cloudinary
 
-CLIENT_URL=http://localhost:5173
+🧰 REST API built with Node.js & Express
 
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+🧱 MongoDB for data persistence
 
-ARCJET_KEY=your_arcjet_key
-ARCJET_ENV=development
-```
+🚦 API Rate-Limiting via Arcjet
 
----
+🎨 Beautiful UI built with React, Tailwind CSS & DaisyUI
 
-## 🔧 Run the Backend
+🧠 Zustand for lightweight state management
 
-```bash
+🧑‍💻 Clean Git & GitHub Workflow (branches, PRs, merges)
+
+🚀 Easy Deployment (free-tier friendly via Sevalla)
+
+📂 Project Structure
+/project-root
+│── /backend
+│── /frontend
+│── README.md
+
+▶️ Running the Project
+🖥️ Start the Backend
 cd backend
 npm install
 npm run dev
-```
 
-## 💻 Run the Frontend
-
-```bash
+💻 Start the Frontend
 cd frontend
 npm install
 npm run dev
-```
+
+🧰 Tech Stack
+Frontend
+
+React
+
+Tailwind CSS
+
+DaisyUI
+
+Zustand
+
+Backend
+
+Node.js
+
+Express
+
+MongoDB
+
+Socket.io
+
+Cloudinary
+
+Resend
+
+Arcjet
+
+✨ Features
+
+Secure authentication flow
+
+Real-time chat system
+
+Live presence & typing indicators
+
+Image sharing support
+
+Email notifications & welcome messages
+
+Rate-limited API
+
+Modern and responsive UI
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to open a PR anytime.
+
+👨‍💻 Author
+
+Shivam Kumar Shukla
+Python Developer • Full-Stack Learner • Tech Enthusiast
